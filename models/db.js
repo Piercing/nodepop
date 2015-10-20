@@ -12,7 +12,7 @@ db.once('open', function() {
     console.info('Connected to mongodb.');
 });
 
-mongoose.connect('mongodb://localhost/nodepop');
+mongoose.connect('mongodb://node:ultrasecreta@localhost/nodepop');
 
 // Cargamos las definiciones de todos nuestros modelos
 require('./Anuncio');

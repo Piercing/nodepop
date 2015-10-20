@@ -71,7 +71,7 @@ function initUsuarios(cb) {
     Usuario.remove({}, ()=> {
 
         var usuarios = [
-            {nombre: 'admin', email: 'jamg44@gmail.com', clave: '123456'}
+            {nombre: 'admin', email: 'merlosalbarracin@gmail.com', clave: '$c021120c$'}
         ];
 
         async.eachSeries(usuarios, Usuario.createRecord, (err)=> {
