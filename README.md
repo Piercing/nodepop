@@ -5,6 +5,9 @@ Api for the iOS/Android apps.
 
 ## Deploy
 
+     url: http://servnodepop.cloudapp.net/
+     ip: http://40.113.12.161/
+
 ### Install dependencies  
     
     npm install
